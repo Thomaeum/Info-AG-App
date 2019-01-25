@@ -5,4 +5,4 @@ Following Fetures wil be Implemented
 * Kalender
 * Overview on our Prodjekts on Github
 * Sepcial options for Coordinators
-* Clod integration
+* Cloud integration
