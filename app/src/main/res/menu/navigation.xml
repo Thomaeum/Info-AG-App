@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_kalender"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_kalender" />
+
+    <item
+        android:id="@+id/navigation_projekts"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_projekts" />
+
+    <item
+        android:id="@+id/navigation_coordinators"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_coordinators" />
+
+</menu>
