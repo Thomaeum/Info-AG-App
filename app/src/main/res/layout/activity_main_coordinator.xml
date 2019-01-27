@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivityCoordinator">
 
     <FrameLayout
         android:id="@+id/fragment_container"
@@ -21,6 +21,6 @@
         android:background="@color/design_default_color_primary"
         app:itemIconTint="@android:color/holo_blue_bright"
         app:itemTextColor="@android:color/holo_blue_bright"
-        app:menu="@menu/navigation" />
+        app:menu="@menu/navigation_coordinator" />
 
 </RelativeLayout>
