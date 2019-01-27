@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
+    android:background="@color/background">
 
     <TextView
         android:id="@+id/settings_title_text"
@@ -13,7 +13,8 @@
         android:textAllCaps="false"
         android:textColor="@color/tabTitle"
         android:textSize="30sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:background="@color/tabTitleBackground"/>
 
     <ScrollView
         android:id="@+id/settings_content"

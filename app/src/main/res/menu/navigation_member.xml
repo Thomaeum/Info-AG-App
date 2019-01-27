@@ -4,7 +4,7 @@
     <item
         android:id="@+id/navigation_projekts"
         android:icon="@drawable/projekts_24dp"
-        android:title="@string/title_projekts" />
+        android:title="@string/title_projects" />
 
     <item
         android:id="@+id/navigation_kalender"
