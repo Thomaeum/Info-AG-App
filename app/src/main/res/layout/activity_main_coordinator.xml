@@ -18,9 +18,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/design_default_color_primary"
-        app:itemIconTint="@android:color/holo_blue_bright"
-        app:itemTextColor="@android:color/holo_blue_bright"
+        android:background="@color/bottomNavigation_background"
+        app:itemIconTint="@color/bottomNavigation_icon"
+        app:itemTextColor="@color/bottomNavigation_text"
         app:menu="@menu/navigation_coordinator" />
 
 </RelativeLayout>
