@@ -2,13 +2,25 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_bright">
+    android:background="@android:color/white">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/projekts_title_text"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/title_projekts"
+        android:textAlignment="center"
+        android:textAllCaps="false"
         android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/projekts_title">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>

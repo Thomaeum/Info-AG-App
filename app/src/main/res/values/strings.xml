@@ -1,14 +1,9 @@
 <resources>
     <string name="app_name">Info-AG App</string>
-    <string name="title_kalender">Kalender</string>
+    <string name="title_calender">Calender</string>
     <string name="title_projekts">Projekts</string>
     <string name="title_coordinators">Coordinators</string>
     <string name="title_cloud">Cloud</string>
     <string name="title_settings">Settings</string>
     <string name="testView">This is a Test</string>
-    <string name="empty_calender">Calender</string>
-    <string name="empty_projkets">This is a Test</string>
-    <string name="empty_coordinators">This is a Test</string>
-    <string name="empty_cloud">This is a Test</string>
-    <string name="empty_settings">This is a Test</string>
 </resources>

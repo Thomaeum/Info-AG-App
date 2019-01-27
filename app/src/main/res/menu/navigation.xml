@@ -2,14 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_kalender"
-        android:icon="@drawable/test"
-        android:title="@string/title_kalender" />
-
-    <item
         android:id="@+id/navigation_projekts"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="@string/title_projekts" />
+
+    <item
+        android:id="@+id/navigation_kalender"
+        android:icon="@drawable/test"
+        android:title="@string/title_calender" />
 
     <item
         android:id="@+id/navigation_coordinators"
