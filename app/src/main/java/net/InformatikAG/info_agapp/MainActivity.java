@@ -23,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 case R.id.navigation_coordinators:
                     return true;
+                case R.id.navigation_cloud:
+                    return true;
+                case R.id.navigation_settings:
+                    return true;
             }
             return false;
         }
