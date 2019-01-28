@@ -4,26 +4,27 @@
     android:layout_height="match_parent"
     android:background="@color/background">
 
-    <TextView
-        android:id="@+id/settings_title_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/title_settings"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/tabTitle"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:background="@color/tabTitleBackground"/>
-
     <ScrollView
-        android:id="@+id/settings_content"
+        android:id="@+id/cloud_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/settings_title_text">
+        android:layout_above="@+id/settings_title_text">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"></RelativeLayout>
     </ScrollView>
+
+    <TextView
+        android:id="@+id/settings_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/tabTitleBackground"
+        android:text="@string/title_settings"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/tabTitle"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 </RelativeLayout>

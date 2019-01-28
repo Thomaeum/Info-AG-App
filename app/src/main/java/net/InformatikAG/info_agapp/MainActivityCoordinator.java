@@ -17,7 +17,7 @@ public class MainActivityCoordinator extends AppCompatActivity {
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ProjektsFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ProjectsFragment()).commit();
     }
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
             new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -30,7 +30,7 @@ public class MainActivityCoordinator extends AppCompatActivity {
                             selectedFragment = new CalenderFragment();
                             break;
                         case R.id.navigation_projekts:
-                            selectedFragment = new ProjektsFragment();
+                            selectedFragment = new ProjectsFragment();
                             break;
                         case R.id.navigation_coordinators:
                             selectedFragment = new CoordinatorsFragment();

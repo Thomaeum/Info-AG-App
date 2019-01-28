@@ -4,15 +4,18 @@
     android:layout_height="match_parent"
     android:background="@color/background">
 
-    <TextView
-        android:id="@+id/discord_title_text"
+    <ScrollView
+        android:id="@+id/scrollable_content_discord"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/title_discord"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/tabTitle"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:background="@color/tabTitleBackground"/>
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/content_discord"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Discord Link (https://discord.gg/vCJrse2) und Logo -->
+
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>

@@ -4,26 +4,19 @@
     android:layout_height="match_parent"
     android:background="@color/background">
 
-    <TextView
-        android:id="@+id/coordinators_title_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/title_coordinators"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/tabTitle"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:background="@color/tabTitleBackground"/>
-
     <ScrollView
-        android:id="@+id/coordinators__content"
+        android:id="@+id/scrollable_content_coordinators"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/coordinators_title_text">
+        android:layout_height="match_parent">
 
         <RelativeLayout
+            android:id="@+id/content_coordinators"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></RelativeLayout>
+            android:layout_height="match_parent">
+
+            <!-- Es Folgt eine Liste von Eigenschaften die Hier noch kommen
+            < Anwesenheits liste
+            -->
+        </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

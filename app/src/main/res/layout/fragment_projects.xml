@@ -5,18 +5,17 @@
     android:background="@color/background">
 
     <ScrollView
-        android:id="@+id/scrollable_content_cloud"
+        android:id="@+id/scrollable_content_projects"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <RelativeLayout
-            android:id="@+id/content_cloud"
+            android:id="@+id/content_projects"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <!-- Cloud Integration -->
+            <!-- Integration von Github -->
 
         </RelativeLayout>
     </ScrollView>
-
 </RelativeLayout>

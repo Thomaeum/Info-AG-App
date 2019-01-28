@@ -13,7 +13,7 @@
 
     <item
         android:id="@+id/navigation_discord"
-        android:icon="@drawable/discord_icon"
+        android:icon="@drawable/discord"
         android:title="@string/title_discord" />
     <item
         android:id="@+id/navigation_cloud"

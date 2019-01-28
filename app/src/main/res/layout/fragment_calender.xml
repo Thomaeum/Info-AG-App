@@ -4,26 +4,19 @@
     android:layout_height="match_parent"
     android:background="@color/background">
 
-    <TextView
-        android:id="@+id/calender_title_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/title_calender"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/tabTitle"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:background="@color/tabTitleBackground"/>
-
     <ScrollView
-        android:id="@+id/calender_content"
+        android:id="@+id/scrollable_content_calender"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/calender_title_text">
+        android:layout_height="match_parent">
 
         <RelativeLayout
+            android:id="@+id/content_calender"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"></RelativeLayout>
+            android:layout_height="match_parent">
+
+            <!-- Hier kommt der Kalender hin -->
+
+        </RelativeLayout>
     </ScrollView>
+
 </RelativeLayout>
