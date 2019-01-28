@@ -5,26 +5,17 @@
     android:background="@color/background">
 
     <ScrollView
-        android:id="@+id/cloud_content"
+        android:id="@+id/scrollable_content_settings"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/settings_title_text">
+        android:layout_height="match_parent">
 
         <RelativeLayout
+            android:id="@+id/content_settings"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></RelativeLayout>
-    </ScrollView>
+            android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/settings_title_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@color/tabTitleBackground"
-        android:text="@string/title_settings"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/tabTitle"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+            <!-- Discord Link (https://discord.gg/vCJrse2) und Logo -->
+
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
