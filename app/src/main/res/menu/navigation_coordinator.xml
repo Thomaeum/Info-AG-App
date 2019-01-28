@@ -13,7 +13,7 @@
 
     <item
         android:id="@+id/navigation_coordinators"
-        android:icon="@drawable/test"
+        android:icon="@drawable/coordinators"
         android:title="@string/title_coordinators" />
     <item
         android:id="@+id/navigation_cloud"

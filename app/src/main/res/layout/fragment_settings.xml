@@ -14,7 +14,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <!-- Discord Link (https://discord.gg/vCJrse2) und Logo -->
+            <!-- Settings Liste:
+            < Log out Button
+            -->
 
         </RelativeLayout>
     </ScrollView>
