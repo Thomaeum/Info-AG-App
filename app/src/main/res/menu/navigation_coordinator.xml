@@ -3,12 +3,12 @@
 
     <item
         android:id="@+id/navigation_projekts"
-        android:icon="@drawable/projekts_24dp"
+        android:icon="@drawable/projekts"
         android:title="@string/title_projects" />
 
     <item
         android:id="@+id/navigation_kalender"
-        android:icon="@drawable/calender_24dp"
+        android:icon="@drawable/calender"
         android:title="@string/title_calender" />
 
     <item
@@ -17,11 +17,11 @@
         android:title="@string/title_coordinators" />
     <item
         android:id="@+id/navigation_cloud"
-        android:icon="@drawable/cloud_24dp"
+        android:icon="@drawable/cloud"
         android:title="@string/title_cloud" />
     <item
         android:id="@+id/navigation_settings"
-        android:icon="@drawable/settings_24dp"
+        android:icon="@drawable/settings"
         android:title="@string/title_settings" />
 
 </menu>
