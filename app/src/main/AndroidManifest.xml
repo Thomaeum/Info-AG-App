@@ -19,13 +19,13 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".MainActivityCoordinator">
+        <!-- Leave this as a comment or you'l ed op with two versions of the App on your Phone -->
+        <!--<activity android:name=".MainActivityCoordinator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <!--
+        </activity>-->
         <activity android:name=".MainActivityMember">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
