@@ -6,3 +6,5 @@ Following Fetures wil be Implemented
 * Overview on our Prodjekts on Github
 * Sepcial options for Coordinators
 * Cloud integration
+
+Maby we wil Be adding a Wear OS Version of it
