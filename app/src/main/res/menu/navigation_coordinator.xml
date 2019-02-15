@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!--This is the menu for Coordinators-->
     <item
         android:id="@+id/navigation_kalender"
         android:icon="@drawable/calender"
