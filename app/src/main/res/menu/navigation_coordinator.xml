@@ -2,23 +2,24 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_projekts"
-        android:icon="@drawable/projekts"
-        android:title="@string/title_projects" />
-
-    <item
         android:id="@+id/navigation_kalender"
         android:icon="@drawable/calender"
         android:title="@string/title_calender" />
+
+    <item
+        android:id="@+id/navigation_cloud"
+        android:icon="@drawable/cloud"
+        android:title="@string/title_cloud" />
 
     <item
         android:id="@+id/navigation_coordinators"
         android:icon="@drawable/coordinators"
         android:title="@string/title_coordinators" />
     <item
-        android:id="@+id/navigation_cloud"
-        android:icon="@drawable/cloud"
-        android:title="@string/title_cloud" />
+        android:id="@+id/navigation_projekts"
+        android:icon="@drawable/projekts"
+        android:title="@string/title_projects" />
+
     <item
         android:id="@+id/navigation_settings"
         android:icon="@drawable/settings"
